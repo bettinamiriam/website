@@ -1,0 +1,361 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster:200,300,400,700|Magra:400,700);
+
+/*
+	Elemental: A responsive HTML5 website template by HTML5Templates.com
+	Released for free under the Creative Commons Attribution 3.0 license (html5templates.com/license)
+	Visit http://html5templates.com for more great templates or follow us on Twitter @HTML5T
+*/
+
+/*********************************************************************************/
+/* Global                                                                        */
+/*********************************************************************************/
+
+/* Basic */
+
+body {
+	background: #252525 url(images/main-content-bg.jpg) repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 1.75em;
+	color: #616161;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-family: 'Magra', sans-serif;
+	font-size: 2.2em;
+	color: #171717;
+        text-align: center;
+}
+
+h3 {
+	letter-spacing: -1px;
+	font-family: 'Magra', sans-serif;
+	font-size: 2.2em;
+	color: #171717;
+        text-align: left;
+}
+
+h4 {
+	font-family: 'Magra', sans-serif;
+	font-size: 1.6em;
+	color: #E60082;
+        text-align: center;
+        margin-bottom: 40px;
+}
+
+h5 {
+	font-family: 'Magra', sans-serif;
+	font-size: 5.6em;
+	color: #E60082;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: 10px;
+}
+
+h6 {
+	letter-spacing: -1px;
+	font-family: 'Magra', sans-serif;
+	font-size: 1.8em;
+	color: #171717;
+        text-align: left;
+        margin-bottom: 10px;
+}
+
+h7 {
+	letter-spacing: -3px;
+	font-family: 'Magra', sans-serif;
+	font-size: 3.5em;
+	color: #171717;
+        text-align: left;
+}
+
+h8 {
+	font-size: 1.3em;
+	color: goldenrod;
+        text-align: center;
+        margin-bottom: 40px;
+}
+
+h9 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 0px;
+}
+
+hr
+{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-color:#E60082;
+}
+
+.thumb {
+	text-align:center;
+        margin-top:-20px;
+        line-height:1.5em;
+}
+
+
+p, ol {
+	line-height: 200%;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E60082;
+}
+
+strong {
+	font-weight: 700;
+}
+
+lite {
+	color: #E60082;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+
+}
+
+
+/* Header Content Wrapper */
+
+#header-wrapper {
+	overflow: hidden;
+	background: url(images/bg1.png) repeat;
+}
+
+/* Page Wrapper */
+
+#page-wrapper {
+}
+
+#page-wrapper img {
+	width: 100%;
+	display: block;
+	margin-bottom: 30px;
+}
+
+
+/* Footer Content Wrapper */
+
+#footer-wrapper {
+	overflow: hidden;
+	padding: 70px 0px;
+	background: url(images/bg1.png) repeat;
+	border-top: 1px solid #EAEAEA;
+}
+
+/* Footer Content */
+
+#footer-content {
+}
+
+#footer-content h2 {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	color: #000000
+}
+
+#footer-content .margin-bottom {
+}
+
+#footer-content a img {
+	width: 100%;
+	display: block;
+}
+
+
+/* List style */
+
+.list-style1 {
+}
+
+.list-style1 li {
+	padding: 20px 0px 20px 0px;
+	background: url(images/link-style1-divider2.png) repeat-x left top;
+}
+
+.list-style1 p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-style1 img {
+    width: 100%;
+    float: center;
+}
+
+.list-style1 .posted {
+	padding: 10px 0px 0px 0px;
+	font-size: 8pt;
+	font-style: italic;
+	color: #A2A2A2;
+}
+
+.list-style1 .first {
+	padding-top: 50px;
+	background: none;
+}
+
+.list-style2 {
+}
+
+.list-style2 li {
+	padding: 20px 0px 20px 0px;
+	background: url(images/link-style1-divider.png) repeat-x left top;
+}
+
+.list-style2 p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-style2 img {
+    width: 100%;
+    float: center;
+}
+
+.list-style2 .posted {
+	padding: 10px 0px 0px 0px;
+	font-size: 8pt;
+	font-style: italic;
+	color: #A2A2A2;
+}
+
+.list-style2 .first {
+	padding-top: 50px;
+	background: none;
+}
+
+.list-style3 {
+}
+
+.list-style3 li {
+	padding: 10px 0px 10px 0px;
+        text-align: center;
+}
+
+.list-style3 p {
+	margin: 0px;
+	padding: 0px;
+        text-align: center;
+}
+
+.list-style3 img {
+    width: 100%;
+    float: center;
+}
+
+.list-style3 .posted {
+	padding: 10px 0px 0px 0px;
+	font-size: 8pt;
+	font-style: italic;
+	color: #A2A2A2;
+}
+
+.list-style3 .first {
+	padding-top: 50px;
+	background: none;
+}
+
+
+/* Reusable Buttons */
+
+.button {
+	display: inline-block;
+	outline: 0;
+	white-space: nowrap;
+	margin-top: 20px;
+	padding: 10px 30px 10px 30px;
+	background: #717370;
+	box-shadow: inset 0px 0px 0px 1px #CDCFCC, 0px 2px 3px 0px rgba(0,0,0,0.25);
+	border: solid 1px #717370;
+	border-radius: 6px;
+	background-image: -moz-linear-gradient(top, #ACADAC, #878787);
+	background-image: -webkit-linear-gradient(top, #ACADAC, #878787);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ACADAC), to(#878787));
+	background-image: -ms-linear-gradient(top, #ACADAC, #878787);
+	background-image: -o-linear-gradient(top, #ACADAC, #878787);
+	background-image: linear-gradient(top, #ACADAC, #878787);
+	text-decoration: none;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+	font-size: 12pt;
+	color: #FFFFFF;
+}
+
+/* Customizations */
+
+#slideShow {
+  width : 100px;
+  height : 100px;
+  padding : 10px;
+}
+
+.gss a img {
+    border : none;
+}
+
+.gss {
+    color: #dddddd;
+    background: url(images/bg1.png) repeat;
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+}
+
+#about {
+text-align: left;
+}
+
+/* Tabbed Page */
+
+.text {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 1.2em;
+}
+
+.text li {
+    display:inline;
+}
+
+.text a {
+    display:inline-block;
+    padding:10px;
+}
+
+.text a:hover {
+    display:inline-block;
+    padding:10px;
+    color:lightgray;
+}
+
+#active {
+    display:inline-block;
+    padding:10px;
+    font-weight: bolder;
+}
